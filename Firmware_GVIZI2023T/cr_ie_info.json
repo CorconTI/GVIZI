@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_eda",
+		"comment" : "not_applicable",
+		"error_message" : "directory for .vo file does not exist",
+		"source_file" : "/quartus/neto/vlgo/vlgo_writer.cpp",
+		"line" : "219",
+		"stack_trace" : "\t0x7ff8f31520fe: NETO_VLGO + 0x120fe (?write_file@VLGO_WRITER@@UEAAXAEBVQEDAU_UTIL@@@Z + 0x1ee)\n\t0x7ff7f63ee752: quartus_eda + 0x1e752 (?generate_simulation_files@QNETO_START@@AEAAXW4WSC_NETLIST_TYPE@@AEBVQEDAU_UTIL@@W4DEV_FAMILY_ENUM@@@Z + 0xfc2)\n\t0x7ff7f63efabc: quartus_eda + 0x1fabc (?generate_simulation_files@QNETO_START@@QEAAXW4QEDA_CALL_TYPE@@AEBVQEDAU_UTIL@@@Z + 0x5ac)\n\t0x7ff7f63e754f: quartus_eda + 0x1754f (?generate_eda_files@QNETO_START@@QEAAXW4QEDA_CALL_TYPE@@AEBVQEDAU_UTIL@@@Z + 0x2f)\n\t0x7ff7f63f7e3d: quartus_eda + 0x27e3d (?generate_all_eda_files@@YA_NPEAVCMP_FACADE@@AEBVQEDAU_UTIL@@@Z + 0x5d)\n\t0x7ff7f63f8c2b: quartus_eda + 0x28c2b (?qneto_execute@@YA_NPEAVCMP_FACADE@@PEBD_N2V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@332AEBVQEDAU_UTIL@@@Z + 0x18b)\n\t0x7ff7f63d9db8: quartus_eda + 0x9db8 (?execute@QNETO_FRAMEWORK@@UEAA_NXZ + 0x288)\n\t0x7ff934ef150c: comp_qexe + 0x1150c (qexe_do_normal + 0x1ec)\n\t0x7ff934ef6622: comp_qexe + 0x16622 (qexe_run + 0x432)\n\t0x7ff934ef7371: comp_qexe + 0x17371 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff7f63dfe9f: quartus_eda + 0xfe9f (?qneto_main@@YAHHPEAPEBD@Z + 0xaf)\n\t0x7ff945f53258: CCL_MSG + 0x13258 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ff945f54a5e: CCL_MSG + 0x14a5e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ff946fc6af0: ccl_mem + 0x16af0 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ff945f52af1: CCL_MSG + 0x12af1 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff7f63fa746: quartus_eda + 0x2a746 (__tmainCRTStartup + 0x10e)\n\t0x7ff959d67033: KERNEL32 + 0x17033 (BaseThreadInitThunk + 0x13)\n\t0x7ff95bb02650: ntdll + 0x52650 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "VLGO"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "20.1.1",
+		"build" : "720",
+		"edition" : "Lite Edition"
+	}
+}
